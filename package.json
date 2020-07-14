@@ -8,11 +8,13 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.5.0",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "reactstrap": "^8.5.1",
     "socket.io-client": "^2.3.0",
+    "sweetalert2": "^9.17.0",
     "uuid": "^8.2.0"
   },
   "scripts": {
