@@ -1,6 +1,6 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
-import { Input, Button, FormText } from 'reactstrap';
+import { Input, Button } from 'reactstrap';
 import io from 'socket.io-client';
 import uuid from 'uuid/dist/v4';
 
