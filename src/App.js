@@ -53,7 +53,7 @@ function App() {
 
   useEffect(() => {
     insertUserName();
-  }, []);
+  }, [insertUserName]);
 
   return (
     <>
@@ -63,7 +63,10 @@ function App() {
           <div className="row h-100 ">
             <div className="col-12">
               {messages.map((value, i) => (
-                <div className={`d-flex m-2 flex-column ${value.id === id ? ' align-items-end' : ''}`}>
+                <div
+                  className={`d-flex m-2 flex-column ${value.id === id ? ' align-items-end' : ''}`}
+                  key={username + uuid + Math.random()}
+                >
                   <p>
                     {`${value.username} diz:`}
                   </p>
